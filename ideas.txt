@@ -1,0 +1,10 @@
+REDDIT BOT JJDPROJECTS
+
+
+Whenever a wikipedia link is found, the bot comments with a summary of the article (the first paragraph of the article)
+
+Or, 
+
+Do a google search of the newest askreddit questions and send the OP a link to the first few google results
+
+skip the reddit posts on google
