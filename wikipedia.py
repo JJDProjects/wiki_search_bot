@@ -13,7 +13,7 @@ def get_urls(comment: str) -> [str]:
 	'''Looks through a reddit comment and returns a
 	list of wikipedia urls
 	'''
-	return [word for word in comment.split() if 'wikipedia.org' in word]
+	return [word for word in comment.split() if ('wikipedia.org' in word and word.startswith('http'))]
 
 
 
