@@ -1,8 +1,26 @@
+'''
+app.py
+
+The script that runs this bot
+'''
+
 import praw
 from init import REDDIT
+import wikipedia
 
+def wiki_testing():
+	'''Practicing finding wikipedia links 
+	in a string'''
 
-def main():
+	comment = 'steins gate is pretty cool https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)'
+	# prints a list containing any wikipedia links
+	print(wikipedia.get_urls(comment))
+
+def comment_testing():
+	''' Practicing looking through reddit 
+	comments. Currently need to be able to look through
+	replies recursively. Look in agenda.txt for more details
+	'''
 	submissions = REDDIT.subreddit('all').hot(limit=1) # first 100 submissions in r/all
 	comment_count = 0
 	for submission in submissions:
@@ -15,7 +33,10 @@ def main():
 			else:
 				break
 
-
+def main():
+	comment_testing()
+	print()
+	wiki_testing()
 
 if __name__ == '__main__':
 	main()

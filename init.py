@@ -1,6 +1,8 @@
+'''
+init.py
+Setting up our Reddit API
+'''
 import praw
-
-# The setup:
 
 CLIENT = 'L8x-6g1eTzKv-g'
 SECRET = 'J0inUb7XHpxfbc3Cd1eauU8j2GY'

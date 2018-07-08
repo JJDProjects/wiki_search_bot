@@ -2,10 +2,10 @@ So far: we are able to print the first 15 comments of the top post in r/all
 
 What to do:
 
-1. Look through replies of each of the 15 comments. Look through the first 5 replies (second level). 
-For each second level reply, look through the next 3 third level replies. 
+1. Determine if a comment contains a wikipedia link. For testing, we can just print True whenever we find a wikipedia link
 
-2. Determine if a comment contains a wikipedia link. For testing, we can just print True whenever we find a wikipedia link
+2. Look through replies of each of the 15 comments. Look through the first 5 replies (second level). 
+For each second level reply, look through the next 3 third level replies. 
 
 3. Figure out how to get the first paragraph of the wiki link, and then reply to the comment
 
