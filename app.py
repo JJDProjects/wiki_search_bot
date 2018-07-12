@@ -5,8 +5,8 @@ The script that runs this bot
 '''
 
 import praw
-from init import REDDIT
-import wikipedia
+from reddit.config import REDDIT
+from reddit import wikipedia
 
 def wiki_testing():
 	'''Practicing finding wikipedia links 
