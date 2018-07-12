@@ -1,5 +1,5 @@
 '''
-init.py
+config.py
 Setting up our Reddit API
 '''
 import praw
